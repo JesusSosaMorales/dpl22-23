@@ -1,0 +1,11 @@
+form{
+    display: flex; 
+    flex-direction: column; 
+    width: 800px;
+}
+img{
+    width: 100px;
+}
+button{
+    width: 150px;
+}
