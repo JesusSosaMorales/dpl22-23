@@ -1,3 +1,6 @@
+# UT3-TE1
+#DPL - Jesus Sosa Morales
+
 ## Instalación y carga del módulo
 Empezamos con la instalación de ngx_small_light,  es un módulo de transformación de imagen dinámica que esta disponible para nginx.
 
