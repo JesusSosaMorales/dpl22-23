@@ -1,0 +1,14 @@
+form{
+    display:flex;
+    flex-direction: column;
+    width: 300px;
+}
+.contenedor_img{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+img{
+    margin: 10px;
+}
