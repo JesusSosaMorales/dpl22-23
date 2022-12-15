@@ -13,12 +13,6 @@ function abrirConex(){
 }
 
 
-
-
-
-
-
-
 function selectVisited(){
     $conexion = abrirConex();
     $ciudades = pg_exec($conexion, "SELECT * FROM places WHERE visited=true");
