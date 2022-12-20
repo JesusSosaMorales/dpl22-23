@@ -322,7 +322,7 @@ Registramos el servidor con el nombre de nuestra base de datos.
 Y añadimos los datos de nuestra base de datos indicando host, puerto, el nombre de la base de datos y la contraseña.
 
 
-![...](screenshot/pgadminserver.png)
+![...](screenshot/pgadminserver2.png)
 
 Por último añadimos el certificado al virtual host:
 
