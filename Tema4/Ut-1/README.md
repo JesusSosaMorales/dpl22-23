@@ -500,7 +500,7 @@ A continuación creamos un host virtual:
 
 Una vez creado, podemos comprobar:
 
-![...](screenshot/travelroadArkaniaSolucion.PNG)
+![...](screenshot/travelroadArkaniaSolucion.png)
 
 Ahora solo falta añadir la redireccion www y el protocolo https, para ello creamos un nuevo host virtual:
 
