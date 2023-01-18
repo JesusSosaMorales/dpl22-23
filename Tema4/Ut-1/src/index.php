@@ -15,34 +15,21 @@ require_once("cityDAO.php");
 <ul>
     <?php
         $novisitadas = selectNoVisited();
- 
     while($row=pg_fetch_row($novisitadas)){
         echo "<li> $row[1] </li>";
-
     }
-
-   
     ?>
  
 </ul>
 
 <h2>Places I've Already Been To</h2>
-
 <ul>
-  
 <?php
         $visitadas = selectVisited();
- 
     while($row=pg_fetch_row($visitadas)){
         echo "<li> $row[1] </li>";
-
     }
-
-   
     ?>
-
 </ul>
-
-    
 </body>
 </html>

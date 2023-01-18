@@ -29,7 +29,4 @@ function selectNoVisited(){
     return $ciudades;
 }
 
-
-
-
 ?>
