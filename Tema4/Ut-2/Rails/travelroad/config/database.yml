@@ -1,0 +1,26 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  # For details on connection pooling, see Rails configuration guide
+  # https://guides.rubyonrails.org/configuring.html#database-pooling
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  username: travelroad_user
+  password: dpl0000
+  database: travelroad
+  host: localhost
+  port: 5432
+
+production:
+  <<: *default
+  database: travelroad
+  username: travelroad_user
+  password: <%= ENV["TRAVELROAD_DATABASE_PASSWORD"] %>
+  host: localhost
+  port: 5432
+
+test:
+  <<: *default
+  database: travelroad_test
