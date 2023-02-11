@@ -19,3 +19,18 @@ En resumen, un framework es una herramienta valiosa para los desarrolladores de 
 - [Spring](Spring.md)
 - [Rails on Ruby](Rails.md)
 - [Django](Django.md)
+
+
+## Mi Ranking
+
+|                  | Lenguaje de programación | Instalación | Curva de aprendizaje | Despliegue | Opinión personal | Total |
+|------------------|--------------------------|-------------|----------------------|------------|------------------|-------|
+| 1º Spring        | 5                        | 2           | 5                    | 3          | 5                | 20    |
+| 2º Django        | 3                        | 4           | 4                    | 2          | 4                | 17    |
+| 3º Laravel       | 4                        | 1           | 3                    | 4          | 3                | 15    |
+| 4º Express       | 1                        | 5           | 1                    | 5          | 1                | 13    |
+| 5º Rails on Ruby | 2                        | 3           | 2                    | 1          | 2                | 10    |
+
+
+
+
