@@ -258,7 +258,7 @@ Y Editamos la configuración de Supervisor:
 
 ![...](Django/screenshots/41.png)
 
-![...](Django/screenshots/57.png)
+![...](Django/screenshots/57.PNG)
 
 Reiniciamos el servicio para que surtan efectos los cambios realizados:
 
@@ -314,7 +314,7 @@ sudo nginx -t
 ```
 Nos dara error en el include del proxy_params, esto lo arreglamos creando un nuevo fichero dentro de la configuracion de nginx.
 
-![...](Django/screenshots/51.PNG)
+![...](Django/screenshots/51.png)
 
 
 Recargamos la configuración de Nginx para que los cambios surtan efecto.
