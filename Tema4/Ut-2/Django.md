@@ -194,7 +194,7 @@ Modificamos las siguientes líneas del fichero settings.py para aprovechar las f
 Ahora creamos un fichero .env que contendrá las configuraciones concretas para el entorno de producción:
 
 ![...](Django/screenshots/33.png)
-![...](Django/screenshots/53.png)
+![...](Django/screenshots/53.PNG)
 
 ## Especificación de requerimientos
 
@@ -202,19 +202,19 @@ De cara a que el proyecto pueda "reproducirse" en cualquier entorno virtual nece
 
 Lo creamos y añadimos los paquetes utilizados:
 
-![...](Django/screenshots/54.png)
-![...](Django/screenshots/55.png)
+![...](Django/screenshots/54.PNG)
+![...](Django/screenshots/55.PNG)
 
 
 ## Instalar las dependencias
 Una vez clonado el repositorio y con el entorno virtual creado y activo, ejecutamos el siguiente comando para instalar las dependencias del proyecto:
 
-![...](Django/screenshots/56.png)
+![...](Django/screenshots/56.PNG)
 
 
 ## Parámetros para el entorno de producción
 Necesitamos un fichero .env que contendrá las configuraciones concretas para el entorno de producción:
-![...](Django/screenshots/53.png)
+![...](Django/screenshots/53.PNG)
 ## Servidor de aplicación
 
 Existen múltiples alternativas para el despliegue de una aplicación Django y un amplio abanico de servidores de aplicación.
@@ -278,7 +278,7 @@ Una vez de vuelta en la sesión podemos comprobar que ya no se produce ningún e
 
 Aunque no es totalmente obligatorio, sí puede ser de utilidad que tengamos un script de servicio para nuestra aplicación que se encargue de levantar gunicorn:
 
-![...](Django/screenshots/58.png)
+![...](Django/screenshots/58.PNG)
 
 Damos permisos de ejecución:
 
@@ -297,7 +297,7 @@ supervisorctl reread
 supervisorctl add travelroad
 supervisorctl status
 ```
-![...](Django/screenshots/59.png)
+![...](Django/screenshots/59.PNG)
 
 
 ### Nginx
